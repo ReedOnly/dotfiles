@@ -1,0 +1,9 @@
+[user]
+        email = krr@equinor.com
+        name = Kristian Reed
+[core]
+        editor = vim
+        excludefile = ~/.gitignore_local
+[alias]
+    co = checkout
+    st = status

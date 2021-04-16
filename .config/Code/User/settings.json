@@ -1,0 +1,78 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all",
+    "editor.suggestSelection": "first",
+    "editor.rulers": [79],
+    "editor.formatOnSave": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "window.titleBarStyle": "custom",
+    "workbench.preferredDarkColorTheme": "Visual Studio 2019 Dark",
+    "workbench.colorTheme": "Default Dark+",
+    "files.autoSave": "onFocusChange",
+    "remote.SSH.enableAzureIntegration": true,
+    "settingsSync.ignoredSettings": [],
+    "extensions.ignoreRecommendations": false,
+    "terminal.integrated.fontSize": 13,
+    "window.zoomLevel": 0,
+    // Go
+    // "go.gopath": "/home/kristian/go",
+    "go.useLanguageServer": true,
+    "go.lintOnSave": "off",
+    "go.formatTool": "goformat",
+    // Python
+    "python.testing.autoTestDiscoverOnSaveEnabled": false,
+    "python.showStartPage": false,
+    "python.languageServer": "Pylance",
+    // JavaScript/TypeScript
+    // Formatting settings
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // C#
+    "csharp.semanticHighlighting.enabled": true,
+    "omnisharp.enableImportCompletion": true,
+    "omnisharp.enableEditorConfigSupport": true,
+    "files.associations": {
+        ".editorconfig": "csharp"
+    },
+    "omnisharp.enableDecompilationSupport": true,
+    // Java
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.project.importOnFirstTimeStartup": "automatic",
+    // Etc
+    "arduino.additionalUrls": "",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.port": 3000,
+    "vscode-graphql.useSchemaFileDefinitions": false,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "settingsSync.ignoredExtensions": [
+        "kiteco.kite"
+    ],
+}
